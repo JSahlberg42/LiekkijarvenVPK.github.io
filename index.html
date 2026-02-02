@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fi"> <!-- Sivuston kieli -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Slab:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Liekkijärven VPK">
+    <meta name="keywords" content="Palokunta, VPK, Liekkijärvi">
+    <meta name="author" content="Jussi Sahlberg">
+    <title>Liekkijärven VPK</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-brand">
+          <img src="images/vpk-logo-blue.jpg" alt="Liekkijärven VPK logo" class="logo">
+          <h1>Liekkijärven VPK</h1>
+        </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
+        <label for="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Valikko</span>
+        </label>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="toiminta.html">Toiminta</a></li>
+          <li><a href="liity.html">Liity</a></li>
+          <li><a href="tapahtumat.html">Tapahtumat</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <h2>Sopimuspalokunta</h2>
+        <p>Toimimme pelastuslaitoksen sopimuspalokuntana. Harjoittelemme säännöllisesti ja tarjoamme mielenkiintoisen ja ilmaisen harrastuksen.</p>
+        <button class="cta-button">Liity mukaan</button>
+      </div>
+    </header>
+    
+    <main class="container">
+      <section class="cards-grid">
+        <div class="card">
+          <div class="card-header">
+            <img src="images/vpk-hero-1.jpg" alt="VPK harjoitus pihalla" class="card-icon">
+            <h3>Mitä VPK tekee?</h3>
+          </div>
+          <p>Osallistumme pelastustoimintaan yhdessä pelastuslaitoksen kanssa.</p>
+          <a href="toiminta.html" class="card-link">Lue lisää</a>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="images/vpk-hero-2.jpg" alt="Jäsenet" class="card-icon">
+            <h3>Tule mukaan</h3>
+          </div>
+          <p>Aloittaa voi ilman mitään kokemusta. Koulutamme tehtäviin sekä tarjoamme asianmukaiset varusteet. Harrastus on ilmaista.</p>
+          <a href="liity.html" class="card-link">Lue lisää</a>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="images/vpk-hero-3.jpg" alt="Tapahtumat" class="card-icon">
+            <h3>Tapahtumat</h3>
+          </div>
+          <p>Seuraa toimintakalenteriamme, tule mukaan tapahtumiin. Täältä löydät palokunnan uutiset.</p>
+          <a href="tapahtumat.html" class="card-link">Lue lisää</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Liekkijärven VPK.<br>
+      Kiireellissä hätätilanteissa soita hätänumeroon <strong>112</strong></p>
+    </footer>
+  </body>
+</html>
