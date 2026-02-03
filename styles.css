@@ -201,11 +201,14 @@ a:focus-visible {
     min-height: 48px;
     min-width: 48px;
     transition: background-color 0.2s ease, transform 0.1s ease;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .cta-button:hover {
     background-color: #A51E1E;
     transform: translateY(-1px);
+    text-decoration: none;
 }
 
 .cta-button:focus-visible {
