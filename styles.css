@@ -208,7 +208,6 @@ a:focus-visible {
 .cta-button:hover {
     background-color: #A51E1E;
     transform: translateY(-1px);
-    text-decoration: none;
 }
 
 .cta-button:focus-visible {
